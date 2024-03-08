@@ -7,4 +7,5 @@ def get_samples():
     # extract essential data
     dates = samples.iloc[:, 0]
     closings = samples.iloc[:, 4]
-    return list(zip(dates, closings))
+    samples = list(zip(dates, closings))
+    return samples
