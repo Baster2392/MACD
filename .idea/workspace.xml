@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf68a907-1101-4f6f-8f89-30cccaee7995" name="Changes" comment="Added data reading and ema calculation">
-      <change afterPath="$PROJECT_DIR$/plot.py" afterDir="false" />
+    <list default="true" id="cf68a907-1101-4f6f-8f89-30cccaee7995" name="Changes" comment="Completed MACD+SIGNAL">
+      <change afterPath="$PROJECT_DIR$/data/gold.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ema.py" beforeDir="false" afterPath="$PROJECT_DIR$/macd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getting_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/getting_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macd.py" beforeDir="false" afterPath="$PROJECT_DIR$/macd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Studia/Metody numeryczne/MACD/MACD/data",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Studia\Metody numeryczne\MACD\MACD\data" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MACD" />
@@ -96,12 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709817748827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed MACD+SIGNAL">
+      <option name="closed" value="true" />
+      <created>1709935332436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709935332436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added data reading and ema calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added data reading and ema calculation" />
+    <MESSAGE value="Completed MACD+SIGNAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed MACD+SIGNAL" />
   </component>
 </project>

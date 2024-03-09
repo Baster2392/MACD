@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def get_samples():
-    samples = pd.read_csv("data/wig20_d.csv")
+    samples = pd.read_csv("data/gold.csv")
 
     # extract essential data
     dates = samples.iloc[:, 0]
