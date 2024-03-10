@@ -2,9 +2,10 @@ import matplotlib.pyplot as pyplot
 
 
 def plot_macd(dates, macds, signals):
-    pyplot.plot(dates, macds)
-    pyplot.plot(dates, signals)
+    pyplot.plot(dates, macds, label="MACD")
+    pyplot.plot(dates, signals, label="SIGNAL")
 
+    pyplot.legend()
     pyplot.xlabel("Time")
     pyplot.ylabel("MACD")
 
@@ -20,6 +21,6 @@ def plot_raw_data(dates, values):
     pyplot.ylabel("Prices")
 
     pyplot.xticks([dates[i] for i in range(0, len(dates), 50)], rotation=45)
-    pyplot.title("Stocks prices")
+    pyplot.title("Stock prices")
     pyplot.show()
 

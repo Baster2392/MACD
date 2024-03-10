@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf68a907-1101-4f6f-8f89-30cccaee7995" name="Changes" comment="Completed MACD+SIGNAL">
-      <change afterPath="$PROJECT_DIR$/data/gold.csv" afterDir="false" />
+    <list default="true" id="cf68a907-1101-4f6f-8f89-30cccaee7995" name="Changes" comment="Added deciding algorithm, that suggest when to buy or sell actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getting_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/getting_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macd.py" beforeDir="false" afterPath="$PROJECT_DIR$/macd.py" afterDir="false" />
@@ -38,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Studia/Metody numeryczne/MACD/MACD/data",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studia/Metody numeryczne/MACD/MACD/data&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studia\Metody numeryczne\MACD\MACD\data" />
@@ -111,13 +110,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709935332436</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added deciding algorithm, that suggest when to buy or sell actions">
+      <option name="closed" value="true" />
+      <created>1710006674563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710006674563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added data reading and ema calculation" />
     <MESSAGE value="Completed MACD+SIGNAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed MACD+SIGNAL" />
+    <MESSAGE value="Added deciding algorithm, that suggest when to buy or sell actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added deciding algorithm, that suggest when to buy or sell actions" />
   </component>
 </project>
