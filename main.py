@@ -3,10 +3,11 @@ import macd
 import plot
 
 if __name__ == '__main__':
-    path = input("Path do .csv file: ")
-    dates_index = int(input("Index of column containing dates: "))
-    values_index = int(input("Index of column containing values: "))
-    funds = input("Start funds: ")
+    #path = input("Path do .csv file: ")
+    #dates_index = int(input("Index of column containing dates: "))
+    #values_index = int(input("Index of column containing values: "))
+    #funds = input("Start funds: ")
+    path = "data/gold.csv"
     dates_index = 0
     values_index = 4
     funds = 1000
