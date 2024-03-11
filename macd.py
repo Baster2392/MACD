@@ -34,7 +34,7 @@ def get_signals(macds):
     signals += macds[:9]
 
     for i in range(9, len(macds)):
-        signal = calculate_signal(macds[i:])
+        signal = calculate_signal(macds[i - 9:])
         signals.append(signal)
 
     return signals
@@ -44,14 +44,14 @@ def analyze_macd(dates, macds, signals, values, funds):
     money = funds
     actions = 0
     for i in range(1, len(macds)):
-        # signal cuts from below -> buy action
+        # macd cuts from below -> buy action
         if signals[i - 1] > macds[i - 1] and signals[i] < macds[i]:
             if money != 0:
                 actions = money / values[i]
                 money = 0
             print("Buy: " + dates[i])
             print("Actions: " + str(actions))
-        # signal cuts from above -> sell actions
+        # macd cuts from above -> sell actions
         if signals[i - 1] < macds[i - 1] and signals[i] > macds[i]:
             if actions != 0:
                 money = actions * values[i]
